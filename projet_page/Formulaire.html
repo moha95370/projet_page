@@ -1,0 +1,104 @@
+<!--Page de formulaire d'inscription-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <title>Inscription</title>
+</head>
+<body>
+    
+    <form class="entete">
+        <a  href="Mapageweb.html">Acceuil</a> &emsp;
+        <a  href="Connexion.html">Connexion</a> &emsp;
+        <a  href="https://www.bourgogne-greta.fr/formation/titre-professionnel-concepteur-developpeur-dapplications-h-f-dijon/" title="site greta" target="_blank">Liens utiles</a>
+    </form>
+    
+
+    <p>Formulaire d'incription</p><hr>
+    <form action="" type="POST">
+
+        <fieldset>
+            <legend>Titre</legend>
+            <label for="titre">Titre</label>
+            <select id="titre">
+                <option value="M">M</option>
+                <option value="Mme">Mme</option>
+                <option value="Mlle">Mlle</option>
+            </select>
+        </fieldset> 
+
+        <fieldset>
+            <legend>Type de télephone</legend>
+            <label>Téléphone</label>
+            <input id="telephone"/>
+            <select name="telephone" id="telephone">
+                <option value="Fixe">Fixe</option>
+                <option value="Mobile">Mobile</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Cordonnées personnelles</legend>
+            <div>
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom"/>
+            </div>	
+            <div>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom"/>
+            </div>
+            <div>
+                <label for="voie">Voie</label>
+                <input type="text" id="voie"/>
+            </div>
+            <div>
+                <label>CodePostal</label>
+                <input type="number" id="CP"/>
+            </div>
+            <div>
+                <label>Ville</label>
+                <input type="text" id="ville"/>
+            </div>
+            <div>	
+                <label>email</label>
+                <input type="email" id="email"/>	
+            </div>
+            <div>	
+                <label>Date de naissance</label>
+                <input type="date" id="datedenaissance"/>
+            </div>
+           
+        </fieldset>   
+        <fieldset>    
+            <legend>Mot de passe</legend>
+            <div>
+                <label for="passe">Mot de passe</label>
+                <input type="password" id="passe"/>
+            </div>
+            <div>
+                <label for="cpasse">Confirmé votre Mot de passe</label>
+                <input type="password" id="cpasse"/>
+            </div>
+        
+        </fieldset>    	
+            <br><br>	
+        <fieldset>
+            <legend>Commentaire</legend>
+                <label for="commentaire">Commentaire:</label>
+            </div>
+            <div>
+            <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea>
+            </div>
+            
+        </fieldset><br><br>
+        
+        <div>
+            <input type="submit" value="Confirmer">
+        </div>
+        
+    </form>
+</body>
+</html>

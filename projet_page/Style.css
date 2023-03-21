@@ -1,0 +1,48 @@
+
+  .centrer {
+    display: block;
+    margin: auto;
+ 
+  }
+  .entete{
+    color:rgb(167, 52, 67);
+    text-align : center;
+    
+  }
+  .greta {
+    display: block;
+    margin: auto;
+   
+  }
+
+  p {
+    font-size: 40px;
+    text-align : center;
+    font-weight : bold;
+    color:rgb(167, 52, 67);
+    background-color: #eeeeee;
+    
+
+  }
+  a{
+    font-size: 20px;
+    background-color: rgba(240, 233, 233, 0.822);
+  }
+
+  h1{
+    color: rgb(127, 221, 124);
+    font-weight : bold;
+    text-decoration: underline;
+  }
+  h2{
+    font-size: 15px;
+    font-weight : bold;
+  }
+  fieldset {
+    background-color: #eeeeee;
+  }
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+  }
